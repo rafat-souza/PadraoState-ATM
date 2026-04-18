@@ -1,5 +1,7 @@
 package padraostate.atm;
 
+import padraostate.atm.estados.EstadoAguardandoCartao;
+
 public class CaixaEletronico {
 
     private CaixaEstado estado;
