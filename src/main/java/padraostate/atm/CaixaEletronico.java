@@ -34,4 +34,12 @@ public class CaixaEletronico {
         return estado.retirarNotas(this);
     }
 
+    public String getNomeEstado() {
+        return estado.getEstado();
+    }
+
+    public CaixaEstado getEstado() {
+        return estado;
+    }
+
 }
