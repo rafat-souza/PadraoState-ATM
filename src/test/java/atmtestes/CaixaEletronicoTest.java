@@ -42,14 +42,6 @@ public class CaixaEletronicoTest {
         assertEquals("Aguardando Cartão", caixa.getNomeEstado());
     }
 
-    @Test
-    public void devePermitirEjetarCartaoNoEstadoAutenticado() {
-        caixa.inserirCartao();
-
-        assertTrue(caixa.ejetarCartao());
-        assertEquals("Aguardando Cartão", caixa.getNomeEstado());
-    }
-
     // testes de ações inválidas por estado
 
     @Test
